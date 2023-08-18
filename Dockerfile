@@ -6,7 +6,7 @@ ENV PYTHONUNBUFFERED 1
 COPY ./requirement.txt /tmp/requirement.txt
 COPY ./requirements.dev.txt /tmp/requirements.dev.txt
 COPY ./app /app
-WORKDIR /Documents/workspace/recipe-app-api/appS
+WORKDIR /app
 EXPOSE 8000
 
 ARG DEV=false
